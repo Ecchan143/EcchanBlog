@@ -125,22 +125,3 @@ h1 {
     0% { transform: translateX(-100%); }
     100% { transform: translateX(0); }
 }
-
-.motto-list {
-    list-style: none;
-    padding: 0;
-}
-
-.motto-list li {
-    display: flex;
-    align-items: center;
-}
-
-.motto-list strong {
-    font-weight: bold;
-    animation: slideIn 1s ease-in-out;
-}
-
-.motto-list i {
-    margin-right: 10px;
-}
