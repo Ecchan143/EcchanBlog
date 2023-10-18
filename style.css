@@ -13,6 +13,13 @@ header {
     padding: 40px;
 }
 
+.profile-image {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    border-radius: 50%; /* Makes it a circular image */
+    margin-right: 20px;
+}
+
 h1 {
     font-size: 36px;
     animation: greetingAnimation 1s ease-in-out;
