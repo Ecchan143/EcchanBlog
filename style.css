@@ -54,6 +54,16 @@ h1 {
     padding: 0;
 }
 
+.hobby-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.hobby-list i {
+    margin-right: 10px;
+}
+
 #hobbies h2 {
     color: #3498db;
 }
@@ -65,9 +75,35 @@ h1 {
     margin: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.school-life-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.school-life-text i {
+    margin-right: 10px;
+}
 
 #school-life h2 {
     color: #3498db;
+}
+
+#motto {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#motto h2 {
+    color: #3498db;
+}
+
+.motto-list {
+    list-style: none;
+    padding: 0;
 }
 
 @keyframes greetingAnimation {
@@ -83,4 +119,28 @@ h1 {
 @keyframes imageEntranceAnimation {
     0% { transform: translateX(-100px); opacity: 0; }
     100% { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideIn {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0); }
+}
+
+.motto-list {
+    list-style: none;
+    padding: 0;
+}
+
+.motto-list li {
+    display: flex;
+    align-items: center;
+}
+
+.motto-list strong {
+    font-weight: bold;
+    animation: slideIn 1s ease-in-out;
+}
+
+.motto-list i {
+    margin-right: 10px;
 }
